@@ -8,6 +8,7 @@ const SignInBtn = ({onClick , children}) => {
           variant="outlined"        
           onClick={onClick}
           className="sign-in-btn"
+          style={{border:"2px solid ##019670"}}
         > 
         {children}
         </Button>

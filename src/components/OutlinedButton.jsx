@@ -5,12 +5,15 @@ const OutlinedButton = ({ children, onClick }) => {
     <div>
       <Button
         type="default"
-        variant="outlined"
-        //   color="white"
+        // color="white"
         onClick={onClick}
-        style={{ backgroundColor: "transparent" }}
-        // onClick={() => navigate("/login")}
-        className="sign-in-btn"
+        style={{
+          backgroundColor: "transparent",
+          color: "white !important",
+          border: "2px  solid white !important",
+          fontSize: "18px !important",         
+        }}
+        className="outline-btn"
       >
         {/* Sign In */}
         {children}

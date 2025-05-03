@@ -6,7 +6,7 @@
 
 .custom-addon-wrapper .ant-input-group-addon {
   background-color: #0faf82 !important;
-  color: white,
+  color: white;
 }
 
 .custom-addon-wrapper .color-white {
@@ -30,7 +30,9 @@
   font-size: 18px;
   line-height: 1.5714285714285714;
   list-style: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   position: relative;
   display: flex;
   width: 100%;
@@ -39,7 +41,8 @@
   transition: all 0.2s;
 }
 
-:where(.css-dev-only-do-not-override-dtnub6).ant-input-group-wrapper-outlined .ant-input-group-addon {
+:where(.css-dev-only-do-not-override-dtnub6).ant-input-group-wrapper-outlined
+  .ant-input-group-addon {
   border: 0px;
 }
 
@@ -89,7 +92,7 @@ h4.ant-typography,
 }
 
 .left-pane {
-  background-color: #00B894;
+  background-color: #00b894;
   color: white;
   text-align: center;
   padding: 3rem 1.5rem;
@@ -142,8 +145,8 @@ h4.ant-typography,
   font-size: 18px;
   padding: 20px 80px;
   /* width: 100%; */
-  background-color: #00B894;
-  border-color: #00B894;
+  background-color: #00b894;
+  border-color: #00b894;
 }
 
 .signup-btn:hover {
@@ -155,34 +158,49 @@ h4.ant-typography,
 .sign-in-btn {
   font-size: 18px;
   margin-top: 2rem;
-  background-color: transparent;
-  border:2px solid #0faf82 !important;
+  background-color: transparent !important;
+  border: 2px solid #0faf82 !important;
   color: #0faf82 !important;
   padding: 20px 80px;
 }
 
 .sign-in-btn:hover {
-  background-color: white !important;
-  color: #00B894 !important;
-  border-color: white !important;
+  background-color: #0faf82 !important;
+  color: #fff !important;
+  border-color: #0faf82 !important;
 }
-
+.outline-btn.ant-btn {
+  font-size: 18px;
+  margin-top: 2rem;
+  background-color: transparent;
+  border: 2px solid #fff !important;
+  color: #fff !important;
+  padding: 20px 80px;
+}
+.outline-btn.ant-btn:hover {
+  font-size: 18px;
+  margin-top: 2rem;
+  background-color: white !important;
+  border: 2px solid white !important;
+  color: #019670 !important;
+  padding: 20px 80px;
+}
 /* Sign in outlined button  */
-:where(.css-dev-only-do-not-override-dtnub6).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled),
+/* :where(.css-dev-only-do-not-override-dtnub6).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled),
 :where(.css-dev-only-do-not-override-dtnub6).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled) {
   border-color: #0faf82 !important;
   background: transparent !important;
   color: #0faf82 !important;
   padding: 20px 40px;
-}
+} */
 
 /* Sign in outlined buttton - hover  */
-:where(.css-dev-only-do-not-override-dtnub6).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+/* :where(.css-dev-only-do-not-override-dtnub6).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
 :where(.css-dev-only-do-not-override-dtnub6).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
   background-color: #00B894 !important;
   border-color: #00B894 !important;
   color: #fff !important;
-}
+} */
 
 .navigation-link a:where(.css-dev-only-do-not-override-dtnub6).ant-typography,
 :where(.css-dev-only-do-not-override-dtnub6).ant-typography a {
@@ -198,13 +216,13 @@ h4.ant-typography,
   font-size: 18px !important;
 }
 
-:where(.css-dev-only-do-not-override-dtnub6).ant-input-affix-wrapper .ant-input-suffix {
+:where(.css-dev-only-do-not-override-dtnub6).ant-input-affix-wrapper
+  .ant-input-suffix {
   position: absolute !important;
   right: 15px !important;
 }
 
 @media (max-width: 768px) {
-
   .left-pane,
   .right-pane {
     text-align: center;

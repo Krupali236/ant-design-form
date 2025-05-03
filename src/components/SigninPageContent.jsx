@@ -15,14 +15,7 @@ const SigninPageContent = () => {
           Create your account and unlock a world of possibilities.
           <br />
           Sign up now and get started!
-        </Title>
-        {/* <Button
-          type="default"
-          onClick={() => navigate("/login")}
-          className="sign-in-btn"
-        >
-          Sign In
-        </Button> */}
+        </Title>       
         <OutlinedButton onClick={()=>navigate("/signup")}>Sign Up</OutlinedButton>
         <div className="role-links">
           <Title level={4}>

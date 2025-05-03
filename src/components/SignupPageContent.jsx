@@ -16,15 +16,10 @@ const SignupPageContent = () => {
           <br />
           please login with your personal info
         </Title>
-        {/* <Button
-          type="default"
-          onClick={() => navigate("/login")}
-          className="sign-in-btn"
-        >
+
+        <OutlinedButton onClick={() => navigate("/signin")}>
           Sign In
-        </Button> */}
-        {/* <SignInBtn /> */}
-        <OutlinedButton onClick={()=>navigate("/signin")}>Sign In</OutlinedButton>
+        </OutlinedButton>
         <div className="role-links">
           <Title level={4}>
             CREATOR <Text className="color-white">HERE</Text>
