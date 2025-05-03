@@ -1,0 +1,85 @@
+/* Signup.css */
+.signup-container {
+    min-height: 100vh;
+    background-color: #e0e0e0;
+    padding: 2rem 0;
+  }
+  
+  .signup-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-pane {
+    background-color: #00B894;
+    color: white;
+    text-align: center;
+    padding: 3rem 1.5rem;
+  }
+  
+  .welcome-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .sign-in-btn {
+    margin-top: 2rem;
+    border-color: white;
+    color: white;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: white;
+    color: #00B894;
+    border-color: white;
+  }
+  
+  .role-links {
+    margin-top: 3rem;
+    font-weight: 500;
+  }
+  
+  .role-links .divider {
+    margin: 0 10px;
+    color: white;
+  }
+  
+  .right-pane {
+    padding: 3rem 2rem;
+    background-color: white;
+  }
+  
+  .form-content {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .signup-form .ant-input-affix-wrapper {
+    border-radius: 4px;
+  }
+  
+  .signup-btn {
+    width: 100%;
+    background-color: #00B894;
+    border-color: #00B894;
+  }
+  
+  .signup-btn:hover {
+    background-color: #019670;
+    border-color: #019670;
+  }
+  
+  @media (max-width: 768px) {
+    .left-pane, .right-pane {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+  
+    .form-content {
+      max-width: 100%;
+    }
+  }
+  
