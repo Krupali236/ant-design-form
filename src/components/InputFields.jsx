@@ -37,7 +37,7 @@ const InputFields = ({
             onChange={handleChange}
             placeholder="Username"
             status={errors?.username ? "error" : ""}
-            style={{margin:"10px 0px"}}
+            style={{margin:"10px 0px" , padding:"10px !important"}}
           />
           {errors?.username && <Typography color="error" style={{color:" #d32f2f"}}>{errors.username}</Typography>}
         </>
@@ -54,7 +54,7 @@ const InputFields = ({
             onChange={handleChange}
             placeholder="Email"
             status={errors?.email ? "error" : ""}
-          style={{margin:"10px 0px" }}
+          style={{margin:"10px 0px" , fontSize:"18px" }}
         />
        {errors?.email && (
             <Typography color="error" style={{color:" #d32f2f"}}>{errors.email}</Typography>

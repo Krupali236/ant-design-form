@@ -7,13 +7,6 @@ import SignupPageContent from "./components/SignupPageContent";
 import Signup from "./components/Signup";
 import React, { useState } from "react";
 import { Form, Input, Button, Typography, Row, Col, Card } from "antd";
-import {
-  UserOutlined,
-  MailOutlined,
-  LockOutlined,
-  EyeInvisibleOutlined,
-  EyeTwoTone,
-} from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import SignIn from "./components/SignIn";
 import SigninPageContent from "./components/SigninPageContent";
