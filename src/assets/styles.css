@@ -82,6 +82,7 @@ h5.ant-typography,
 
 /* ========= RESPONSIVE ========= */
 @media (max-width: 768px) {
+
   .left-pane,
   .right-pane {
     text-align: center;
@@ -111,8 +112,10 @@ h5.ant-typography,
 
 :where(.css-dev-only-do-not-override-dtnub6).ant-input,
 .ant-input-affix-wrapper {
-  padding: 0 !important; /* Remove global padding */
-  font-size: 14px; /* Fallback default */
+  padding: 0 !important;
+  /* Remove global padding */
+  font-size: 14px;
+  /* Fallback default */
 }
 
 /* Fix suffix icon overlap in password */
@@ -169,7 +172,7 @@ h5.ant-typography,
 }
 
 /* ========= BUTTONS ========= */
-.signup-btn,
+.solid-btn,
 .sign-in-btn,
 .outline-btn.ant-btn {
   font-size: 18px;
@@ -177,16 +180,16 @@ h5.ant-typography,
   transition: all 0.3s ease;
 }
 
-.signup-btn {
+.solid-btn {
   background-color: #00b894;
   border-color: #00b894;
   color: white;
 }
 
-.signup-btn:hover {
-  background-color: white;
-  color: #019670;
-  border-color: #019670;
+.solid-btn:hover {
+  background-color: white !important;
+  color: #019670 !important;
+  border-color: #019670 !important;
 }
 
 .sign-in-btn {
@@ -206,12 +209,13 @@ h5.ant-typography,
   background-color: transparent;
   border: 2px solid white;
   color: white;
+  margin-top: 20px;
 }
 
 .outline-btn:hover {
-  background-color: white;
-  color: #019670;
-  border-color: white;
+  background-color: white !important;
+  color: #019670 !important;
+  border-color: white !important;
 }
 
 /* ========= LINKS ========= */
