@@ -12,7 +12,7 @@ h2 {
 }
 
 h3 {
-  color: white;
+  color: white !important;
   font-weight: bolder;
   font-size: 36px;
 }
@@ -95,7 +95,7 @@ h5.ant-typography,
 }
 
 /* ========= FORM INPUTS ========= */
-.custom-addon-wrapper .ant-input,
+/* .custom-addon-wrapper .ant-input,
 .custom-addon-wrapper .ant-input-password,
 .custom-addon-wrapper .ant-input-affix-wrapper {
   font-size: 18px !important;
@@ -104,19 +104,17 @@ h5.ant-typography,
   width: 100%;
   border-radius: 6px;
   transition: all 0.2s;
-}
+} */
 
-.custom-addon-wrapper .ant-input-password .ant-input-suffix {
+/* .custom-addon-wrapper .ant-input-password .ant-input-suffix {
   right: 10px;
-}
+} */
 
-:where(.css-dev-only-do-not-override-dtnub6).ant-input,
+/* :where(.css-dev-only-do-not-override-dtnub6).ant-input,
 .ant-input-affix-wrapper {
   padding: 0 !important;
-  /* Remove global padding */
   font-size: 14px;
-  /* Fallback default */
-}
+} */
 
 /* Fix suffix icon overlap in password */
 :where(.css-dev-only-do-not-override-dtnub6).ant-input-affix-wrapper .ant-input-suffix {
@@ -141,20 +139,37 @@ h5.ant-typography,
   padding: 0 5px;
 }
 
+/* .custom-addon-wrapper .ant-input {
+  font-size: 18px;
+  padding: 10px 20px !important;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 6px;
+} */
+
 /* Grouped Inputs */
-:where(.css-dtnub6).ant-input-group .ant-input {
+/* .custom-addon-wrapper .ant-input, .custom-addon-wrapper .ant-input-password, .custom-addon-wrapper .ant-input-affix-wrapper {
+  font-size: 18px !important;
+  padding: 0px !important;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 6px;
+  transition: all 0.2s;
+} */
+
+/* :where(.css-dtnub6).ant-input-group .ant-input {
   width: 100%;
   text-align: inherit;
   margin-bottom: 0;
-}
+} */
 
 /* Focus Effect */
-:where(.css-dtnub6).ant-input-outlined:focus,
+/* :where(.css-dtnub6).ant-input-outlined:focus,
 :where(.css-dtnub6).ant-input-outlined:focus-within {
   border-color: #1677ff;
   box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
   background-color: white;
-}
+} */
 
 /* ========= FORM STRUCTURE ========= */
 .signup-form {
@@ -229,7 +244,12 @@ h5.ant-typography,
 }
 
 /* ========= CARD OVERRIDES ========= */
+/* :where(.css-dtnub6).ant-card .ant-card-body {
+  border-radius: 0 0 8px 8px;
+} */
 :where(.css-dev-only-do-not-override-dtnub6).ant-card .ant-card-body {
-  padding: 0;
+  padding: 0 !important;
   border-radius: 0 0 8px 8px;
 }
+
+

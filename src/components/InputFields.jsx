@@ -66,7 +66,7 @@ const InputFields = ({
      {/* Password */}
      {fields.includes("password") && (
         <>
-        <Input       
+        <Input.Password       
           addonBefore={<LockOutlined className="color-white" />}
           name="password"
           value={inputValue?.password}
