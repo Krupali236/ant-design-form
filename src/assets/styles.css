@@ -185,22 +185,7 @@ h4.ant-typography,
   color: #019670 !important;
   padding: 20px 80px;
 }
-/* Sign in outlined button  */
-/* :where(.css-dev-only-do-not-override-dtnub6).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled),
-:where(.css-dev-only-do-not-override-dtnub6).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled) {
-  border-color: #0faf82 !important;
-  background: transparent !important;
-  color: #0faf82 !important;
-  padding: 20px 40px;
-} */
 
-/* Sign in outlined buttton - hover  */
-/* :where(.css-dev-only-do-not-override-dtnub6).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
-:where(.css-dev-only-do-not-override-dtnub6).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
-  background-color: #00B894 !important;
-  border-color: #00B894 !important;
-  color: #fff !important;
-} */
 
 .navigation-link a:where(.css-dev-only-do-not-override-dtnub6).ant-typography,
 :where(.css-dev-only-do-not-override-dtnub6).ant-typography a {
