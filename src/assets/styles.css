@@ -248,8 +248,12 @@ h5.ant-typography,
   border-radius: 0 0 8px 8px;
 } */
 :where(.css-dev-only-do-not-override-dtnub6).ant-card .ant-card-body {
-  padding: 0 !important;
+  padding: 0px !important;
   border-radius: 0 0 8px 8px;
 }
 
 
+:where(.css-dtnub6).ant-card .ant-card-body {
+  padding: 0px !important;
+  border-radius: 0 0 8px 8px;
+}
