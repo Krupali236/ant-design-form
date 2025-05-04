@@ -1,88 +1,41 @@
+/* ========= GLOBAL TEXT STYLES ========= */
 .color-white {
-  color: white !important;
+  color: white;
   font-weight: 500;
   font-size: 18px;
 }
 
-.custom-addon-wrapper .ant-input-group-addon {
-  background-color: #0faf82 !important;
-  color: white;
-}
-
-.custom-addon-wrapper .color-white {
-  color: white !important;
-  font-size: 22px;
-  padding: 0px 5px;
-}
-
-.custom-addon-wrapper .ant-input-group-wrapper {
-  border: 2px solid #0faf82 !important;
-  border-radius: 7px;
-  width: 100%;
-}
-
-:where(.css-dev-only-do-not-override-dtnub6).ant-input,
-.ant-input-affix-wrapper {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 10px 20px;
-  color: rgba(0, 0, 0, 0.88);
-  font-size: 18px;
-  line-height: 1.5714285714285714;
-  list-style: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  position: relative;
-  display: flex;
-  width: 100%;
-  min-width: 0;
-  border-radius: 6px;
-  transition: all 0.2s;
-}
-
-:where(.css-dev-only-do-not-override-dtnub6).ant-input-group-wrapper-outlined
-  .ant-input-group-addon {
-  border: 0px;
-}
-
 h2 {
-  color: #0faf82 !important;
+  color: #0faf82;
   font-weight: bold;
-  font-size: 36px !important;
+  font-size: 36px;
 }
 
 h3 {
-  color: white !important;
+  color: white;
   font-weight: bolder;
-  font-size: 36px !important;
-}
-
-h5.ant-typography,
-.ant-typography-h5 {
-  font-weight: 100 !important;
-  font-size: 18px !important;
-  color: #000 !important;
+  font-size: 36px;
 }
 
 h4.ant-typography,
 .ant-typography-h4 {
-  font-weight: 100 !important;
-  font-size: 18px !important;
-  color: #fff !important;
+  font-weight: 100;
+  font-size: 18px;
+  color: white;
   display: inline-block;
 }
 
-/* Signup.css */
+h5.ant-typography,
+.ant-typography-h5 {
+  font-weight: 100;
+  font-size: 18px;
+  color: black;
+}
+
+/* ========= LAYOUT ========= */
 .signup-container {
   min-height: 100vh;
   background-color: #e0e0e0;
-  /* padding: 2rem 0; */
-}
-
-:where(.css-dev-only-do-not-override-dtnub6).ant-card .ant-card-body {
-  padding: 0 !important;
-  border-radius: 0 0 8px 8px;
 }
 
 .signup-card {
@@ -98,6 +51,16 @@ h4.ant-typography,
   padding: 3rem 1.5rem;
 }
 
+.right-pane {
+  background-color: white;
+  padding: 3rem 2rem;
+}
+
+.form-content {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .welcome-content {
   display: flex;
   flex-direction: column;
@@ -109,7 +72,7 @@ h4.ant-typography,
   margin-top: 3rem;
   font-weight: 500;
   color: white;
-  font-size: 18px !important;
+  font-size: 18px;
 }
 
 .role-links .divider {
@@ -117,96 +80,7 @@ h4.ant-typography,
   color: white;
 }
 
-.right-pane {
-  padding: 3rem 2rem;
-  background-color: white;
-}
-
-.form-content {
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.signup-form {
-  margin: 30px 15px !important;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.signup-form .ant-input-affix-wrapper {
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-}
-
-.signup-btn {
-  font-size: 18px;
-  padding: 20px 80px;
-  /* width: 100%; */
-  background-color: #00b894;
-  border-color: #00b894;
-}
-
-.signup-btn:hover {
-  background-color: #fff !important;
-  border-color: #019670 !important;
-  color: #019670 !important;
-}
-
-.sign-in-btn {
-  font-size: 18px;
-  margin-top: 2rem;
-  background-color: transparent !important;
-  border: 2px solid #0faf82 !important;
-  color: #0faf82 !important;
-  padding: 20px 80px;
-}
-
-.sign-in-btn:hover {
-  background-color: #0faf82 !important;
-  color: #fff !important;
-  border-color: #0faf82 !important;
-}
-.outline-btn.ant-btn {
-  font-size: 18px;
-  margin-top: 2rem;
-  background-color: transparent;
-  border: 2px solid #fff !important;
-  color: #fff !important;
-  padding: 20px 80px;
-}
-.outline-btn.ant-btn:hover {
-  font-size: 18px;
-  margin-top: 2rem;
-  background-color: white !important;
-  border: 2px solid white !important;
-  color: #019670 !important;
-  padding: 20px 80px;
-}
-
-
-.navigation-link a:where(.css-dev-only-do-not-override-dtnub6).ant-typography,
-:where(.css-dev-only-do-not-override-dtnub6).ant-typography a {
-  color: black !important;
-  text-decoration: none;
-  outline: none;
-  cursor: pointer;
-  transition: all 0.3s;
-  border: 0;
-  padding: 0;
-  background: none;
-  user-select: text;
-  font-size: 18px !important;
-}
-
-:where(.css-dev-only-do-not-override-dtnub6).ant-input-affix-wrapper
-  .ant-input-suffix {
-  position: absolute !important;
-  right: 15px !important;
-}
-
+/* ========= RESPONSIVE ========= */
 @media (max-width: 768px) {
   .left-pane,
   .right-pane {
@@ -219,38 +93,139 @@ h4.ant-typography,
   }
 }
 
+/* ========= FORM INPUTS ========= */
+.custom-addon-wrapper .ant-input,
+.custom-addon-wrapper .ant-input-password,
+.custom-addon-wrapper .ant-input-affix-wrapper {
+  font-size: 18px !important;
+  padding: 10px 20px !important;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.custom-addon-wrapper .ant-input-password .ant-input-suffix {
+  right: 10px;
+}
+
+:where(.css-dev-only-do-not-override-dtnub6).ant-input,
+.ant-input-affix-wrapper {
+  padding: 0 !important; /* Remove global padding */
+  font-size: 14px; /* Fallback default */
+}
+
+/* Fix suffix icon overlap in password */
+:where(.css-dev-only-do-not-override-dtnub6).ant-input-affix-wrapper .ant-input-suffix {
+  position: absolute;
+  right: 15px;
+}
+
+/* Addon Styles */
+.custom-addon-wrapper .ant-input-group-wrapper {
+  border: 2px solid #0faf82;
+  border-radius: 7px;
+}
+
+.custom-addon-wrapper .ant-input-group-addon {
+  background-color: #0faf82;
+  color: white;
+}
+
+.custom-addon-wrapper .color-white {
+  color: white;
+  font-size: 22px;
+  padding: 0 5px;
+}
+
+/* Grouped Inputs */
 :where(.css-dtnub6).ant-input-group .ant-input {
   width: 100%;
-  margin-bottom: 0;
   text-align: inherit;
-  padding: 10px !important;
+  margin-bottom: 0;
 }
 
-:where(.css-dtnub6).ant-input-outlined:focus, :where(.css-dtnub6).ant-input-outlined:focus-within {
+/* Focus Effect */
+:where(.css-dtnub6).ant-input-outlined:focus,
+:where(.css-dtnub6).ant-input-outlined:focus-within {
   border-color: #1677ff;
   box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
-  outline: 0;
-  background-color: #ffffff;
-  padding: 10px !important;
-}
-:where(.css-dtnub6)[class^="ant-input"] [class^="ant-input"], :where(.css-dtnub6)[class*=" ant-input"] [class^="ant-input"], :where(.css-dtnub6)[class^="ant-input"] [class*=" ant-input"], :where(.css-dtnub6)[class*=" ant-input"] [class*=" ant-input"] {
-  box-sizing: border-box;
+  background-color: white;
 }
 
-:where(.css-dev-only-do-not-override-dtnub6).ant-input, .ant-input-affix-wrapper {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 10px 20px;
-  color: #000000e0;
-  font-size: 18px !important;
-  line-height: 1.5714285714285714;
-  list-style: none;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-  position: relative;
-  display: flex
-;
-  width: 100%;
-  min-width: 0;
+/* ========= FORM STRUCTURE ========= */
+.signup-form {
+  margin: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.signup-form .ant-input-affix-wrapper {
   border-radius: 6px;
-  transition: all .2s;
+  display: flex;
+  align-items: center;
+}
+
+/* ========= BUTTONS ========= */
+.signup-btn,
+.sign-in-btn,
+.outline-btn.ant-btn {
+  font-size: 18px;
+  padding: 20px 80px;
+  transition: all 0.3s ease;
+}
+
+.signup-btn {
+  background-color: #00b894;
+  border-color: #00b894;
+  color: white;
+}
+
+.signup-btn:hover {
+  background-color: white;
+  color: #019670;
+  border-color: #019670;
+}
+
+.sign-in-btn {
+  background-color: transparent;
+  border: 2px solid #0faf82;
+  color: #0faf82;
+  margin-top: 2rem;
+}
+
+.sign-in-btn:hover {
+  background-color: #0faf82;
+  color: white;
+  border-color: #0faf82;
+}
+
+.outline-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.outline-btn:hover {
+  background-color: white;
+  color: #019670;
+  border-color: white;
+}
+
+/* ========= LINKS ========= */
+.navigation-link a,
+:where(.css-dev-only-do-not-override-dtnub6).ant-typography a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+/* ========= CARD OVERRIDES ========= */
+:where(.css-dev-only-do-not-override-dtnub6).ant-card .ant-card-body {
+  padding: 0;
+  border-radius: 0 0 8px 8px;
 }

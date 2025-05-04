@@ -66,7 +66,7 @@ const InputFields = ({
      {/* Password */}
      {fields.includes("password") && (
         <>
-        <Input.Password       
+        <Input       
           addonBefore={<LockOutlined className="color-white" />}
           name="password"
           value={inputValue?.password}
@@ -86,11 +86,7 @@ const InputFields = ({
             <Typography color="error" style={{color:" #d32f2f"}}>{errors.password}</Typography>
           )}
         </>
-      )}
-
-      {/* <Form.Item>     
-        <SignUpBtn />
-      </Form.Item> */}
+      )}      
     </Form>
   );
 };
